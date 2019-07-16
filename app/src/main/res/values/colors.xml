@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorLogo">#FFCD8B</color>
+    <color name="colorBackground">#CBF3F3F3</color>
+    <color name="colorBackgroundButton">@android:color/white</color>
+    <color name="colorButtonResult">#F3FF9800</color>
+    <color name="colorButtonResultFocues">#F3A26201</color>
+    <color name="colorTextNumber">@android:color/black</color>
+    <color name="colorTextClearAll">@android:color/holo_red_dark</color>
+    <color name="colorResultHint">@android:color/darker_gray</color>
+</resources>

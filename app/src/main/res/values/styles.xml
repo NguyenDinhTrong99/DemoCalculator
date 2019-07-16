@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    //No Action Bar
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar" />
+    //Text Logo splash
+    <style name="TextLogo">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorLogo</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    //Button style Number
+    <style name="ButtonNumber" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="android:layout_height">@dimen/height_number_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorTextNumber</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">22dip</item>
+        <item name="android:background">@drawable/button_number</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    //Button style result
+    <style name="ButtonResult" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="android:layout_height">@dimen/height_number_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/button_result</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    //TextView Style
+    <style name="TextStyle">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">@color/colorTextNumber</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DemoCalculator</string>
+    // name number calculator
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="math_add">+</string>
+    <string name="math_sub">-</string>
+    <string name="math_div">%</string>
+    <string name="math_divisiom">/</string>
+    <string name="math_multip">*</string>
+    <string name="clear_all">AC</string>
+    <string name="dot">.</string>
+    <string name="negative">-</string>
+    <string name="result">=</string>
+
+</resources>
